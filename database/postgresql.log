@@ -1,0 +1,31 @@
+2023-06-27 01:02:29.603 -03 [16053] LOG:  starting PostgreSQL 15.3 on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit
+2023-06-27 01:02:29.604 -03 [16053] LOG:  listening on IPv6 address "::1", port 8080
+2023-06-27 01:02:29.604 -03 [16053] LOG:  listening on IPv4 address "127.0.0.1", port 8080
+2023-06-27 01:02:29.605 -03 [16053] LOG:  listening on Unix socket "/tmp/.s.PGSQL.8080"
+2023-06-27 01:02:29.606 -03 [16056] LOG:  database system was shut down at 2023-06-27 01:02:29 -03
+2023-06-27 01:02:29.607 -03 [16053] LOG:  database system is ready to accept connections
+2023-06-27 01:07:29.605 -03 [16054] LOG:  checkpoint starting: time
+2023-06-27 01:09:08.613 -03 [16054] LOG:  checkpoint complete: wrote 980 buffers (6.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=98.996 s, sync=0.007 s, total=99.008 s; sync files=266, longest=0.001 s, average=0.001 s; distance=4603 kB, estimate=4603 kB
+2023-06-27 10:03:12.191 -03 [18153] LOG:  invalid length of startup packet
+2023-06-27 10:03:13.207 -03 [18154] LOG:  invalid length of startup packet
+2023-06-27 10:03:13.208 -03 [18157] LOG:  invalid length of startup packet
+2023-06-27 10:03:13.210 -03 [18158] LOG:  invalid length of startup packet
+2023-06-27 10:03:14.587 -03 [18162] LOG:  invalid length of startup packet
+2023-06-27 10:03:15.608 -03 [18163] LOG:  invalid length of startup packet
+2023-06-27 10:03:15.614 -03 [18166] LOG:  invalid length of startup packet
+2023-06-27 10:03:15.618 -03 [18167] LOG:  invalid length of startup packet
+2023-06-27 10:03:16.849 -03 [18171] LOG:  invalid length of startup packet
+2023-06-27 10:03:17.865 -03 [18172] LOG:  invalid length of startup packet
+2023-06-27 10:03:17.868 -03 [18175] LOG:  invalid length of startup packet
+2023-06-27 10:03:17.871 -03 [18176] LOG:  invalid length of startup packet
+2023-06-27 10:03:18.801 -03 [18179] LOG:  invalid length of startup packet
+2023-06-27 10:03:51.746 -03 [18180] LOG:  invalid length of startup packet
+2023-06-27 10:03:51.753 -03 [18224] LOG:  invalid length of startup packet
+2023-06-27 10:03:51.755 -03 [18225] LOG:  invalid length of startup packet
+2023-06-27 10:03:52.023 -03 [16053] LOG:  received fast shutdown request
+2023-06-27 10:03:52.024 -03 [16053] LOG:  aborting any active transactions
+2023-06-27 10:03:52.027 -03 [16053] LOG:  background worker "logical replication launcher" (PID 16059) exited with exit code 1
+2023-06-27 10:03:52.027 -03 [16054] LOG:  shutting down
+2023-06-27 10:03:52.028 -03 [16054] LOG:  checkpoint starting: shutdown immediate
+2023-06-27 10:03:52.032 -03 [16054] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.005 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=4143 kB
+2023-06-27 10:03:52.040 -03 [16053] LOG:  database system is shut down
